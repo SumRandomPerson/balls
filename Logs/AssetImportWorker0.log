@@ -963,3 +963,4 @@ Received Import Request.
 Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78b593ae1d93440bfe484af6ad99271') in 0.043672 seconds 
   Import took 0.045762 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
