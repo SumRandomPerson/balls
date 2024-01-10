@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63078
+57281
 Successfully changed project path to: /Users/game3/balls
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game3/balls
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 23.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game3/balls/Assets
 GfxDevice: creating device client; threaded=0
-2024-01-03 12:07:17.022 Unity[22595:5625360] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2024-01-03 12:07:17.022 Unity[22595:5625360] Metal devices available: 1
-2024-01-03 12:07:17.022 Unity[22595:5625360] 0: AMD Radeon Pro 5500 XT (high power)
-2024-01-03 12:07:17.022 Unity[22595:5625360] Using device AMD Radeon Pro 5500 XT (high power)
+2024-01-10 12:04:42.218 Unity[69904:7889790] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2024-01-10 12:04:42.218 Unity[69904:7889790] Metal devices available: 1
+2024-01-10 12:04:42.218 Unity[69904:7889790] 0: AMD Radeon Pro 5500 XT (high power)
+2024-01-10 12:04:42.219 Unity[69904:7889790] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56595
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000454 seconds.
+Registered in 0.000450 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 24.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 23.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.527 seconds
+- Completed reload, in  0.511 seconds
 Domain Reload Profiling:
-	ReloadAssembly (527ms)
+	ReloadAssembly (511ms)
 		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (424ms)
+		EndReloadAssembly (409ms)
 			LoadAssemblies (38ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (157ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (161ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (150ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (25ms)
+				RefreshPlugins (23ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001598 seconds.
+Registered in 0.001525 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
+- Completed reload, in  0.897 seconds
 Domain Reload Profiling:
-	ReloadAssembly (971ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (897ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (783ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (708ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (278ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (239ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.001730 seconds.
+Validating Project structure ... 0.001282 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.002159 seconds.
+Upgrading shader files ...0.001521 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 178.1 MB.
 System memory in use after: 177.3 MB.
 
 Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 1983.
-Total: 2.825555 ms (FindLiveObjects: 0.147233 ms CreateObjectMapping: 0.054518 ms MarkObjects: 2.210696 ms  DeleteObjects: 0.412352 ms)
+Total: 2.535339 ms (FindLiveObjects: 0.110262 ms CreateObjectMapping: 0.039370 ms MarkObjects: 1.996885 ms  DeleteObjects: 0.387863 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,33 +150,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/scripts/PlayerC.cs
-  artifactKey: Guid(02b0ea681bda8499bac0419c25210f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/PlayerC.cs using Guid(02b0ea681bda8499bac0419c25210f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be51688cc76f8b247f3e6c82c68cccb') in 0.276604 seconds 
-  Import took 0.281900 seconds .
+  path: Assets/scripts/SpawnManager.cs
+  artifactKey: Guid(eeb6d60cc8ee540558a2695ff4ef1d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/SpawnManager.cs using Guid(eeb6d60cc8ee540558a2695ff4ef1d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259a4bf1bad287078d29a28861ded74d') in 0.287774 seconds 
+  Import took 0.292832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 673.936206 seconds.
+  path: Assets/scripts/EnemyC.cs
+  artifactKey: Guid(390614678de2445d19c5064dc203b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnemyC.cs using Guid(390614678de2445d19c5064dc203b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfad87c898e9e7b6fcac1c92a763e3c') in 0.001818 seconds 
+  Import took 0.004524 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001545 seconds.
+Registered in 0.003501 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.876 seconds
+- Completed reload, in  0.875 seconds
 Domain Reload Profiling:
-	ReloadAssembly (877ms)
+	ReloadAssembly (875ms)
 		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (724ms)
-			LoadAssemblies (59ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (270ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (38ms)
 			SetupLoadedEditorAssemblies (258ms)
@@ -192,14 +200,14 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 182.4 MB.
 System memory in use after: 182.5 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 1.995915 ms (FindLiveObjects: 0.097044 ms CreateObjectMapping: 0.036290 ms MarkObjects: 1.851816 ms  DeleteObjects: 0.010170 ms)
+Total: 2.027527 ms (FindLiveObjects: 0.100572 ms CreateObjectMapping: 0.037304 ms MarkObjects: 1.878042 ms  DeleteObjects: 0.010920 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -212,738 +220,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 109.809719 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47c3af8a163bb5de324cd036c16fdfe') in 0.844716 seconds 
-  Import took 0.849143 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001442 seconds.
+Registered in 0.001641 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.896 seconds
+- Completed reload, in  0.879 seconds
 Domain Reload Profiling:
-	ReloadAssembly (897ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (737ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (262ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.1 MB.
-System memory in use after: 187.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1994.
-Total: 2.039390 ms (FindLiveObjects: 0.110658 ms CreateObjectMapping: 0.042575 ms MarkObjects: 1.874616 ms  DeleteObjects: 0.010863 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 13.662327 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242f5c3a4eab8c600933893600701f50') in 0.049723 seconds 
-  Import took 0.052111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020965 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fb1b998a7fca62ded592b966581624') in 0.011327 seconds 
-  Import took 0.013688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.190424 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0ac9238b304897ac32690bfb6e5cb') in 0.011228 seconds 
-  Import took 0.013508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.193659 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7b465554ec12a2043908bb9d6d5c68') in 0.011163 seconds 
-  Import took 0.013564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.192921 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6ceb82dce6e61e24e5d0bc5febd753') in 0.010952 seconds 
-  Import took 0.013123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.184685 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbbd117e40e5e717d5b885bad0cd1dd') in 0.011108 seconds 
-  Import took 0.013417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.189841 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66992c08f4935db835a6d27fffa81c4') in 0.011069 seconds 
-  Import took 0.013253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.193978 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866555cafe5ddd0af479db9684da89f0') in 0.011469 seconds 
-  Import took 0.013618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.191783 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebb3651e36e6edae7aba917a8e95526') in 0.010841 seconds 
-  Import took 0.013210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.183494 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b88c839829d94509dcabb1a6b3fb431') in 0.011292 seconds 
-  Import took 0.013632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.186093 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce4b83f40360c41b08abaaf80ace41f') in 0.011387 seconds 
-  Import took 0.013608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.190969 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591f35b618ab07f5d0c9e4d6c9f80199') in 0.011227 seconds 
-  Import took 0.013507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185223 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f393d3477f7245e6a8a73493c1fef2c') in 0.011674 seconds 
-  Import took 0.013922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.189233 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc09a5a2d0d71b74205ef593ab2047e1') in 0.010938 seconds 
-  Import took 0.013098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.203758 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b588395df7ea07c3f72c35026726e5') in 0.011616 seconds 
-  Import took 0.013820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.175699 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9d54ea5e941c5fa478e23c7ab3df1b') in 0.011014 seconds 
-  Import took 0.013282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185609 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd029be31ed8723bb7367d3767a8ac71f') in 0.010560 seconds 
-  Import took 0.012831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.192163 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a13cd502b981700d26886475b4564a5') in 0.011145 seconds 
-  Import took 0.013496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.194177 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e506b6844cbb7d6948e71b18957cbe') in 0.011040 seconds 
-  Import took 0.013301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.192777 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd147dbb3f25182f3d987b4af59733e') in 0.011351 seconds 
-  Import took 0.013607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.202004 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3958d9dc883d60872978517265664433') in 0.011375 seconds 
-  Import took 0.013664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.175401 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a750843a8600600aef554212ba61b9') in 0.010223 seconds 
-  Import took 0.012418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.184148 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9f5c064361ec5f363b6cf18fa57e76') in 0.011591 seconds 
-  Import took 0.013864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.186371 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2313866ea5bb223f5fb6287835050b83') in 0.011354 seconds 
-  Import took 0.013668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.194284 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52b936ac29a1649b66b9fd27a787929') in 0.011454 seconds 
-  Import took 0.013806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.184608 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc828dbf6dcfbc932dbe16f40524632') in 0.011493 seconds 
-  Import took 0.013715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.190410 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31861527a5345ee8e74c42dc24f0b8af') in 0.010827 seconds 
-  Import took 0.012981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.190663 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffca85ccceac161105cd8c4c9fc2ca11') in 0.011736 seconds 
-  Import took 0.014098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.183244 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5223a42e67b96452f7b00645df00f91') in 0.011366 seconds 
-  Import took 0.013584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.190575 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b5fbc08dca31237e685113d1b6674a') in 0.011340 seconds 
-  Import took 0.013593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.195407 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f38965a85a1948af79b46a30103514') in 0.011276 seconds 
-  Import took 0.013497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185816 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fef61bd8c3a823fdbbb0933e631b54') in 0.011086 seconds 
-  Import took 0.013441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.184922 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832c67919a63af9dd20820f574f8162a') in 0.011702 seconds 
-  Import took 0.013992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.192134 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a1b6eb578f2ddcd0d76fec082a5543') in 0.011564 seconds 
-  Import took 0.015537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.183700 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c18bfb97c31eb20e137c71965d2669c') in 0.011185 seconds 
-  Import took 0.013419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.194197 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0118b64903abcea1dddf6c98c6e287ad') in 0.011256 seconds 
-  Import took 0.013478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.190143 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f16a339ef7d605d37f6d22eb2ace143') in 0.011153 seconds 
-  Import took 0.013683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.183689 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a006691e2825513cd99f30f1b894a3aa') in 0.011138 seconds 
-  Import took 0.013675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185307 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cfe0524f57a19d6025db52bfd3bb84') in 0.011147 seconds 
-  Import took 0.013426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.195631 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab1df6a41b940055550c75121a3b766') in 0.011110 seconds 
-  Import took 0.013355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185425 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2705e6e2394ca34b0f4699343f9e81') in 0.010851 seconds 
-  Import took 0.013191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.197050 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc23dcabc961953637daaf9d55cbe49') in 0.011320 seconds 
-  Import took 0.013556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.194806 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdccc63b44d96bbcada7f89caa92c8a') in 0.011901 seconds 
-  Import took 0.014410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185383 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fc84a6cec28c5bda52e8b539075189') in 0.011591 seconds 
-  Import took 0.013882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.195288 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b8a56726cd8d097e6a2b3092def9d1') in 0.010730 seconds 
-  Import took 0.013053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.188925 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a444656441792082a11763657f8c7180') in 0.011146 seconds 
-  Import took 0.013413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.186822 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7728e72df01bc1eecde096f53f0a6084') in 0.011664 seconds 
-  Import took 0.014045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.191534 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82824e84242bcfc3e7c22a34ba7769c3') in 0.010977 seconds 
-  Import took 0.013315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.197623 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def37510c6322e7f3d5b1606fa348957') in 0.011281 seconds 
-  Import took 0.013891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.184362 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1506494c75d5c4b2a081ddc79042c3') in 0.011143 seconds 
-  Import took 0.013405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.180394 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6dcaff3a536a27222f1612b9bb018b') in 0.011633 seconds 
-  Import took 0.014009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.190266 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0db8e78d4b522446b867395b1937388') in 0.011054 seconds 
-  Import took 0.013389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.192551 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c1ea87ced73a61706db87479b0672f') in 0.011344 seconds 
-  Import took 0.013680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.188395 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93a848466e1b950e67ee7dabfb562e4') in 0.014317 seconds 
-  Import took 0.016623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.194652 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257ed8ffcb579802347ff4ef57746ea7') in 0.011177 seconds 
-  Import took 0.013506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.193625 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28875fa84d28038a951c13c9b53b0107') in 0.011270 seconds 
-  Import took 0.013646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.193071 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5f3eea3a623f62610516d5b7b75ab0') in 0.011878 seconds 
-  Import took 0.014187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.184727 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e4c0c1494cf4caa3bd00f2ace85d46') in 0.011126 seconds 
-  Import took 0.013596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.197257 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebe06187e6f4b35d8dc4d0720f31cac') in 0.011021 seconds 
-  Import took 0.013242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185654 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd510ce4c91dc2c82a280430c080ba1b') in 0.011405 seconds 
-  Import took 0.013656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.188913 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854a39152b18848f8043ada41a8190c5') in 0.011570 seconds 
-  Import took 0.013978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.196245 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8891f69415ec44828142d59b0112fd6f') in 0.011050 seconds 
-  Import took 0.013266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.179959 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ed2d17dacaa2b6dd5dbbfbdbd3042f') in 0.010998 seconds 
-  Import took 0.013294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.189510 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28ab263b895e8cab83ba2e0cf1c0852') in 0.011286 seconds 
-  Import took 0.013690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.202376 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347de61774685b8f871004427c3a93df') in 0.010987 seconds 
-  Import took 0.013269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.178108 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fb68d1871c14c2a4629836a96710bf') in 0.011057 seconds 
-  Import took 0.013240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.186352 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2feeef0dbb8794c9e8903b07c473656') in 0.010794 seconds 
-  Import took 0.013088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.196156 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dc753a324de89f8e491d7191946c55') in 0.011174 seconds 
-  Import took 0.013595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.188334 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab8158a644e68a5fefedf75121753f0') in 0.011138 seconds 
-  Import took 0.013421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.183807 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254a5c41d674224ed95790d1bd0d1cfd') in 0.011722 seconds 
-  Import took 0.014044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.187649 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02b6d12585f265458505966fd7005e7') in 0.011752 seconds 
-  Import took 0.014193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185317 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f045ca698cf69f33be94d0d9a89cc1d5') in 0.012166 seconds 
-  Import took 0.014390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.191343 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdbd7e164c6c384f9c2efec4206463e') in 0.010988 seconds 
-  Import took 0.013183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.187414 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb46603356754040eb7607d342864da') in 0.011061 seconds 
-  Import took 0.013305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.187446 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67e546809260ebc3320d3f45ff9836a') in 0.012238 seconds 
-  Import took 0.014436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.188123 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094821ce7ad5956421a82683fb01e235') in 0.010848 seconds 
-  Import took 0.013095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.195847 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3d7025e2a448fdb8454d36545b1119') in 0.011385 seconds 
-  Import took 0.013681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.415377 seconds.
-  path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
-  artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee4104b37fc782087176ce70d1a9c45') in 0.011926 seconds 
-  Import took 0.014378 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002592 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
-Domain Reload Profiling:
-	ReloadAssembly (877ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (880ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (723ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (257ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (169ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (171ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.4 MB.
-System memory in use after: 187.5 MB.
+System memory in use before: 182.6 MB.
+System memory in use after: 182.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1997.
-Total: 2.005555 ms (FindLiveObjects: 0.097061 ms CreateObjectMapping: 0.036732 ms MarkObjects: 1.861022 ms  DeleteObjects: 0.010174 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 2.007111 ms (FindLiveObjects: 0.100212 ms CreateObjectMapping: 0.036966 ms MarkObjects: 1.859422 ms  DeleteObjects: 0.009917 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -957,10 +277,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.871275 seconds.
+  Time since last request: 90.628493 seconds.
   path: Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab
   artifactKey: Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78b593ae1d93440bfe484af6ad99271') in 0.043672 seconds 
-  Import took 0.045762 seconds .
+Start importing Assets/Course Library/Sky/Prephab/Powerup Indicator.prefab using Guid(f53a20e86842945178bf5a4f15281787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6d38d3857434a3f0958f686ba20fc9') in 0.862123 seconds 
+  Import took 0.866675 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
