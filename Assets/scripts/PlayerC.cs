@@ -10,7 +10,7 @@ private float forwardInput;
 public float speed;
 private GameObject focalPoint;
 public bool hasPowerup;
-private float powerupStrength = 15.0f;
+private float powerupStrength = 5.0f;
 public GameObject powerupIndicator;
 
 
